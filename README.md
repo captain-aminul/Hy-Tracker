@@ -24,6 +24,7 @@ The training of Hy-Tracker consists of three parts:
 Run the tracking file using the appropriate link to the validation datasets.
 
 # If this work is helpful to you, please cite it as:
+```bibtex
 @article{islam2024hy,
   title={Hy-Tracker: A Novel Framework for Enhancing Efficiency and Accuracy of Object Tracking in Hyperspectral Videos},
   author={Islam, Mohammad Aminul and Xing, Wangzhi and Zhou, Jun and Gao, Yongsheng and Paliwal, Kuldip K},
