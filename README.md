@@ -15,13 +15,22 @@ The training of Hy-Tracker consists of three parts:
    ii. Run the training.py under the GRU_Network for the sequence model
 5. YOLO training:
 
-   i. Create the dataset for YOLO training by running nir_data_processing, rednir_data_processing and vis_data_processing files under the data_processing folder.
+   i. Create the dataset for YOLO training by running nir_data_processing, rednir_data_processing and vis_data_processing files under the data_processing folder. We used all the training sets plus the first frame of the validation datasets. 
 
    ii. Run the training.py file to train the Yolo model.
 
 
 # Tracking
 Run the tracking file using the appropriate link to the validation datasets.
+
+
+# HOT2022 Dataset
+'''training
+1. Band Selection: Run the main file under the HASBS/band_16 folder for band selection
+2. GRU: Create the dataset by running the create_dataset.py file under GRU-Network, then train the model by running training.py file.
+3. YOLO: create the dataset by running the hsi_data_processing file under the data_processing folder. We used all the training sets plus the first frame of the validation datasets. Run the training.py file to train the Yolo model.
+'''tracking
+1. Run the tracking file using the appropriate link to the validation datasets.
 
 # If this work is helpful to you, please cite it as:
 ```bibtex
