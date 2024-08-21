@@ -25,11 +25,11 @@ Run the tracking file using the appropriate link to the validation datasets.
 
 
 # HOT2022 Dataset
-'''training
+# training
 1. Band Selection: Run the main file under the HASBS/band_16 folder for band selection
 2. GRU: Create the dataset by running the create_dataset.py file under GRU-Network, then train the model by running training.py file.
 3. YOLO: create the dataset by running the hsi_data_processing file under the data_processing folder. We used all the training sets plus the first frame of the validation datasets. Run the training.py file to train the Yolo model.
-'''tracking
+# tracking
 1. Run the tracking file using the appropriate link to the validation datasets.
 
 # If this work is helpful to you, please cite it as:
