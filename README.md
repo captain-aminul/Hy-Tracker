@@ -15,7 +15,9 @@ The training of Hy-Tracker consists of three parts:
    ii. Run the training.py under the GRU_Network for the sequence model
 5. YOLO training:
 
-   i. Create the dataset for YOLO training by running nir_data_processing, rednir_data_processing and vis_data_processing files under the data_processing folder. We used all the training sets plus the first frame of the validation datasets. 
+   i. Create the dataset for YOLO training by running nir_data_processing, rednir_data_processing and vis_data_processing files under the data_processing folder. We used all the training sets plus the first frame of the validation datasets.
+
+   ii. Download the yolo.pt file from this link: [yolo.pt](https://drive.google.com/file/d/1GfZpbcW_5GQP2WVtt2vFIx-SW8pckVJK/view) and put it in pretrained folder
 
    ii. Run the training.py file to train the Yolo model.
 
@@ -28,7 +30,7 @@ Run the tracking file using the appropriate link to the validation datasets.
 # training
 1. Band Selection: Run the main file under the HASBS/band_16 folder for band selection
 2. GRU: Create the dataset by running the create_dataset.py file under GRU-Network, then train the model by running training.py file.
-3. YOLO: create the dataset by running the hsi_data_processing file under the data_processing folder. We used all the training sets plus the first frame of the validation datasets. Run the training.py file to train the Yolo model.
+3. YOLO: create the dataset by running the hsi_data_processing file under the data_processing folder. We used all the training sets plus the first frame of the validation datasets. Download the yolo.pt file from this link: [yolo.pt](https://drive.google.com/file/d/1GfZpbcW_5GQP2WVtt2vFIx-SW8pckVJK/view) and put it in pretrained folder and then Run the training.py file to train the Yolo model.
 # tracking
 1. Run the tracking file using the appropriate link to the validation datasets.
 
